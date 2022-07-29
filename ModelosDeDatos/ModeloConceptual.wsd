@@ -1,21 +1,20 @@
 @startuml
 
-
 object race
 object horse
 object bettor
 object bet
-object raceResult
-object betResult
 
+object horseRace
+object horseBet
 
 race --|{ bet
 bettor --|{ bet
-horse --|{ bet
 
+race --|{ horseRace
+horse --|{ horseRace
 
-bet ||-- betResult
-
-race ||-- raceResult 
+bet--|{ horseBet
+horse --|{ horseBet
 
 @enduml

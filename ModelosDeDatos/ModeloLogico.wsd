@@ -1,0 +1,53 @@
+@startuml
+
+entity race {
+    * id_race : number <<generated>>
+    --
+    * timeRace : datetime 
+}
+entity horse {
+    *  id_horse : number <<generated>>
+    --
+    * name: text
+}
+entity bettor {
+    * id_bettor : number <<generated>>
+    --
+    * name: text
+}
+entity bet {
+    * id_bet : number <<generated>>
+    --
+    * id_race : number <<FK>>
+    * id_bettor : number <<FK>>
+    * betAmount : number 
+    * timeBet : datetime 
+    * isAcepted : boolean
+    * points : number 
+}
+
+entity horseRace{
+    * id_horseRace : number <<generated>>
+    --
+    * id_race : number <<FK>>
+    * id_horse : number <<FK>>
+}
+entity horseBet{
+    * id_horseBet : number <<generated>>
+    --
+    * id_bet : number <<FK>>
+    * id_horse : number <<FK>>
+    * bettedPossition : number
+    * finalPosition: number
+}
+
+race --|{ bet
+bettor --|{ bet
+
+race --|{ horseRace
+horse --|{ horseRace
+
+bet--|{ horseBet
+horse --|{ horseBet
+
+@enduml
