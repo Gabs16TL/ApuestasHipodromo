@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hippodrome>
+<hippodrome>
+
+    <!-- Ingreso de apostadores-->
+    <bettors>
+        <bettor>
+            <name>Mario</name>
+        </bettor>
+        <bettor>
+            <name>Pedro</name>
+        </bettor>
+        <bettor>
+            <name>Lucas</name>
+        </bettor>
+    </bettors>
+</hippodrome> 

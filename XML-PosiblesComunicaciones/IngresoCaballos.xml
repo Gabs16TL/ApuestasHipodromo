@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hippodrome>
+<hippodrome>
+    <race>
+        <!-- Ingreso de caballos-->
+        <horses>
+            <horse>
+                <name>Horse1</name>
+                <idHorse>1</idHorse>
+            </horse>
+            <horse>
+                <name>Horse2</name>
+                <idHorse>2</idHorse>
+            </horse>
+            <horse>
+                <name>Horse3</name>
+                <idHorse>3</idHorse>
+            </horse>
+            <horse>
+                <name>Horse4</name>
+                <idHorse>4</idHorse>
+            </horse>
+            <horse>
+                <name>Horse5</name>
+                <idHorse>5</idHorse>
+            </horse>
+            <horse>
+                <name>Horse6</name>
+                <idHorse>6</idHorse>
+            </horse>
+            <horse>
+                <name>Horse7</name>
+                <idHorse>7</idHorse>
+            </horse>
+            <horse>
+                <name>Horse8</name>
+                <idHorse>8</idHorse>
+            </horse>
+            <horse>
+                <name>Horse9</name>
+                <idHorse>9</idHorse>
+            </horse>
+            <horse>
+                <name>Horse10</name>
+                <idHorse>10</idHorse>
+            </horse>
+        </horses>
+
+    </race>
+</hippodrome> 

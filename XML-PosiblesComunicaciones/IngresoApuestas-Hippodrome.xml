@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hippodrome>
+<hippodrome>
+
+    <!-- Ingreso de apuestas-->
+    <race>
+
+        <bets>
+            <bet>
+                <idBet>1</idBet>
+                <idBettor>2</idBettor>
+                <betAmount>200</betAmount>
+                <horsesOrder>
+                    <horse>
+                        <idHorse>1</idHorse>
+                        <position>2</position>
+                    </horse>
+                    <!-- The list of Horses continues-->
+
+                </horsesOrder>
+                <time>5:00PM</time>
+            </bet>
+            <bet>
+                <idBet>2</idBet>
+                <idBettor>1</idBettor>
+                <betAmount>250</betAmount>
+                <horsesOrder>
+                    <horse>
+                        <idHorse>3</idHorse>
+                        <position>1</position>
+                    </horse>
+                    <!-- The list of Horses continues-->
+
+                </horsesOrder>
+                <time>5:00PM</time>
+            </bet>
+
+            <bet>
+                <idBet>3</idBet>
+                <idBettor>5</idBettor>
+                <betAmount>220</betAmount>
+                <horsesOrder>
+                    <horse>
+                        <idHorse>2</idHorse>
+                        <position>5</position>
+                    </horse>
+                    <!-- The list of Horses continues-->
+
+                </horsesOrder>
+                <time>5:00PM</time>
+            </bet>
+
+            <bet>
+                <idBet>4</idBet>
+                <idBettor>3</idBettor>
+                <betAmount>100</betAmount>
+                <horsesOrder>
+
+                    <horse>
+                        <idHorse>3</idHorse>
+                        <position>1</position>
+                    </horse>
+                    <!-- The list of Horses continues-->
+                </horsesOrder>
+
+                <time>6:00PM</time>
+            </bet>
+
+        </bets>
+
+    </race>
+</hippodrome> 

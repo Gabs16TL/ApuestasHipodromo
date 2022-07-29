@@ -4,30 +4,31 @@
     <race>
         <!--Entrega de resultados-->
         <results>
-            
+
             <raceResult>
                 <horsesOrder>
-                    <firstPosition>Horse1</firstPosition>
-                    <secondPosition>Horse2</secondPosition>
-                    <thirdPosition>Horse3</thirdPosition>
-                    <fourthPosition>Horse4</fourthPosition>
-                    <fifhtPosition>Horse6</fifhtPosition>
-                    <sixthPosition>Horse5</sixthPosition>
-                    <seventhPosition>Horse8</seventhPosition>
-                    <eighthPosition>Horse10</eighthPosition>
-                    <ninePosition>Horse7</ninePosition>
-                    <tenthPosition>Horse9</tenthPosition>
+                    <horse>
+                        <idHorse>1</idHorse>
+                        <position>2</position>
+                    </horse>
+
+                    <horse>
+                        <idHorse>2</idHorse>
+                        <position>1</position>
+                    </horse>
+
                 </horsesOrder>
+
             </raceResult>
 
             <betResult>
-                <bettor>
-                    <name>Mario</name>
+                <bet>
+                    <itBet>1</itBet>
                     <points>100</points>
-                </bettor>
+                </bet>
 
                 <bettor>
-                    <name>Pedro</name>
+                    <itBet>2</itBet>
                     <points>80</points>
                 </bettor>
 
