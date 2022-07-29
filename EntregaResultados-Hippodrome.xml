@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hippodrome>
+<hippodrome>
+    <race>
+        <!--Entrega de resultados-->
+        <results>
+            
+            <raceResult>
+                <horsesOrder>
+                    <firstPosition>Horse1</firstPosition>
+                    <secondPosition>Horse2</secondPosition>
+                    <thirdPosition>Horse3</thirdPosition>
+                    <fourthPosition>Horse4</fourthPosition>
+                    <fifhtPosition>Horse6</fifhtPosition>
+                    <sixthPosition>Horse5</sixthPosition>
+                    <seventhPosition>Horse8</seventhPosition>
+                    <eighthPosition>Horse10</eighthPosition>
+                    <ninePosition>Horse7</ninePosition>
+                    <tenthPosition>Horse9</tenthPosition>
+                </horsesOrder>
+            </raceResult>
+
+            <betResult>
+                <bettor>
+                    <name>Mario</name>
+                    <points>100</points>
+                </bettor>
+
+                <bettor>
+                    <name>Pedro</name>
+                    <points>80</points>
+                </bettor>
+
+            </betResult>
+
+        </results>
+    </race>
+
+</hippodrome> 

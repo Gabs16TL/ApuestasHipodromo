@@ -1,0 +1,40 @@
+@startuml
+object hippodrome
+object race
+object horse
+object bettor
+object bet
+object betState
+object raceResult
+object betResult
+object betAmount
+object horsesOrder
+object verifyBet
+object calculateResult
+object results
+object acction
+
+hippodrome o-- "n"race
+race *-- "10"horse
+race *-- "n"bettor
+race*-- "n"bet
+
+bet *-- betState
+bet *-- betAmount
+bet *-- horsesOrder
+
+race *-- results
+race *-- acction
+
+results <|-- raceResult
+results <|-- betResult
+
+acction <|--verifyBet
+acction <|--calculateResult
+
+bettor --> bet
+
+bet ..> horse
+
+results ..>bet
+@enduml

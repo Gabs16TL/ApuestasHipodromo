@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hippodrome>
+<hippodrome>
+    <race>
+        <!--Verificación de apuestas-->
+
+        <bets>
+            <bet>
+                <betAmount>200</betAmount>
+                <horsesOrder>
+                    <firstPosition>Horse3</firstPosition>
+                    <secondPosition>Horse4</secondPosition>
+                    <thirdPosition>Horse1</thirdPosition>
+                    <fourthPosition>Horse2</fourthPosition>
+                    <fivethPosition>Horse6</fivethPosition>
+                    <sixthPosition>Horse5</sixthPosition>
+                    <seventhPosition>Horse8</seventhPosition>
+                    <eighthPosition>Horse10</eighthPosition>
+                    <ninePosition>Horse7</ninePosition>
+                    <tenthPosition>Horse9</tenthPosition>
+                </horsesOrder>
+                <time>5:00PM</time>
+                <isAcepted>True</isAcepted>
+
+            </bet>
+
+            <bet>
+                <betAmount>300</betAmount>
+                <horsesOrder>
+                    <firstPosition>Horse9</firstPosition>
+                    <secondPosition>Horse4</secondPosition>
+                    <thirdPosition>Horse7</thirdPosition>
+                    <fourthPosition>Horse2</fourthPosition>
+                    <fivethPosition>Horse10</fivethPosition>
+                    <sixthPosition>Horse5</sixthPosition>
+                    <seventhPosition>Horse8</seventhPosition>
+                    <eighthPosition>Horse6</eighthPosition>
+                    <ninePosition>Horse1</ninePosition>
+                    <tenthPosition>Horse3</tenthPosition>
+                </horsesOrder>
+                <time>4:00PM</time>
+                <isAcepted>True</isAcepted>
+
+            </bet>
+
+            <bet>
+                <betAmount>200</betAmount>
+                <horsesOrder>
+                    <firstPosition>Horse3</firstPosition>
+                    <secondPosition>Horse4</secondPosition>
+                    <thirdPosition>Horse1</thirdPosition>
+                    <fourthPosition>Horse2</fourthPosition>
+                    <sixthPosition>Horse5</sixthPosition>
+                    <seventhPosition>Horse8</seventhPosition>
+                    <eighthPosition>Horse10</eighthPosition>
+                    <ninePosition>Horse7</ninePosition>
+                    <tenthPosition>Horse9</tenthPosition>
+                </horsesOrder>
+                <time>2:00PM</time>
+                <isAcepted>False</isAcepted>
+            </bet>
+        </bets>
+
+
+    </race>
+</hippodrome> 
