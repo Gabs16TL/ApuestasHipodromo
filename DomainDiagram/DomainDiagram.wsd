@@ -14,9 +14,9 @@ object calculateResult
 object acction
 
 hippodrome o-- "n"race
-race *-- "10"horse
-race *-- "n"bettor
-race*-- "n"bet
+hippodrome *-- "10"horse
+hippodrome *-- "n"bettor
+race --*"n"bet
 
 bet *-- betState
 bet *-- betAmount
